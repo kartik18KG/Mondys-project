@@ -1,0 +1,125 @@
+/* course home container */
+
+.course-home-container {
+    margin: 30px;
+}
+
+
+/* ---------------- */
+
+
+/* add course card button */
+
+.Add-course-card {
+    margin: 20px;
+    text-align: center;
+}
+
+
+/* ----------------- */
+
+
+/* Name of the course */
+
+.course-name {
+    text-align: left;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+
+/* ------------------- */
+
+
+/* course card */
+
+.course-card {
+    transition: 0.1s ease-in;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+    /* box-shadow: 5px 5px #f9ab00;
+    border-style: inset; */
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px #f9ab00, 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ------------- */
+
+
+/* icons container */
+
+.course-card-icons {
+    display: flex;
+    padding: 10px 30px 10px 30px;
+    justify-content: space-between;
+}
+
+
+/* -------------- */
+
+
+/* icon styles */
+
+.card-icon {
+    color: #f9ab00;
+    font-size: 1.2rem;
+}
+
+
+/* ------------ */
+
+
+/* text next to icon */
+
+.card-icon-text {
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* ------------------- */
+
+
+/* card footer */
+
+.course-card-footer {
+    display: block;
+    text-align: center;
+}
+
+
+/* -------------- */
+
+
+/* start course icon styles */
+
+.start-course-icon {
+    font-size: 2.3rem;
+    color: #f9ab00;
+    transition: 0.1s linear;
+}
+
+.start-course-icon:hover {
+    transform: scale(1.5);
+}
+
+
+/* ------------------------- */
+
+
+/* Media tag */
+
+@media only screen and (max-width: 600px) {
+    .card-icon {
+        font-size: 1rem;
+    }
+    .course-home-container {
+        margin: 10px;
+    }
+}
+
+
+/* ------------------------------ */

@@ -1,0 +1,76 @@
+/* Thumbnail container */
+
+.cont1 {
+    height: 45vh;
+}
+
+
+/* --------- */
+
+
+/* stats container */
+
+.cont2 {
+    height: 45vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+/* -------------- */
+
+
+/* Thumbnail image */
+
+.video-thumbnail {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* ------------ */
+
+
+/* icon container */
+
+.goal {
+    display: flex;
+    padding: 10px;
+}
+
+
+/* --------------- */
+
+
+/* icons */
+
+.pc-icon {
+    font-size: 5rem;
+    padding-right: 20px;
+}
+
+.clock-icon {
+    font-size: 5rem;
+    padding-right: 20px;
+}
+
+.globe-icon {
+    font-size: 5rem;
+    padding-right: 20px;
+}
+
+
+/* ------------- */
+
+
+/* This media tag  decreases the height of thumbnail on mobile devices */
+
+@media only screen and (max-width: 600px) {
+    .cont1 {
+        height: 30vh;
+    }
+}
+
+
+/* ---------------- */

@@ -1,0 +1,61 @@
+/* Stats container */
+
+.stat-numbers {
+    position: relative;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    top: 20vh;
+}
+
+
+/* ------------- */
+
+
+/* Stat numbers */
+
+.number {
+    padding: 20px;
+    font-size: 3em;
+}
+
+
+/* ---------------- */
+
+
+/* Edit numbers button container */
+
+.Edit-numbers {
+    position: relative;
+    text-align: center;
+    top: 20vh;
+}
+
+
+/* -------------------- */
+
+
+/* button styles */
+
+.join-btn {
+    margin: 10px;
+}
+
+
+/* ----------------- */
+
+
+/* Media tag to alter the font size on mobile devices */
+
+@media only screen and (max-width: 600px) {
+    .stat-numbers {
+        font-size: 0.8rem;
+        top: 10vh;
+    }
+    .Edit-numbers {
+        top: 10vh;
+    }
+}
+
+
+/* ----------------------------------------------------- */

@@ -1,0 +1,33 @@
+.navbar-brand-logo {
+    height: 60px;
+    transform: scale(1.05);
+    /* padding-left: 1vw; */
+}
+
+.nav-item {
+    font-size: 1.1rem;
+    padding: 0;
+}
+
+
+/* .navlink-container {
+    display: block;
+    margin-left: 50vw;
+} */
+
+@media screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu,
+    .btn-group:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown-menu {
+        margin-top: 0;
+    }
+    .dropdown-toggle {
+        margin-bottom: 2px;
+    }
+    .navbar .dropdown-toggle,
+    .nav-tabs .dropdown-toggle {
+        margin-bottom: 0;
+    }
+}

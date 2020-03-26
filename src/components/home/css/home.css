@@ -1,0 +1,45 @@
+/* Master new skills */
+
+
+/* Choose from many fast paced courses */
+
+.course-preview-heading {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.course-preview-heading2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+
+/* ------------------- */
+
+
+/* Video container */
+
+.home-video {
+    background-color: #f2f2f2;
+}
+
+
+/* ------------------------ */
+
+
+/* Join slide container jisme map hai */
+
+.join-slide {
+    height: 80vh;
+    background-image: url("https://www.avrspot.com/wp-content/uploads/2017/05/map-desktop17-e3e214c8d809efc7540e6f7ac2140e51.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ----------------------- */

@@ -1,0 +1,46 @@
+/* Container */
+
+.usp-container {
+    min-height: 70vh;
+    width: 100vw;
+    background-color: #f7f0ea;
+}
+
+
+/* ----------- */
+
+
+/* heading for usp */
+
+.usp-heading {
+    padding: 5vh;
+    display: block;
+    text-align: center;
+}
+
+
+/* ------------- */
+
+
+/* svg icon */
+
+.usp-icon {
+    padding-top: 0;
+    padding: 20px;
+    margin: 0;
+}
+
+
+/* ------------- */
+
+
+/* Caption for icon */
+
+.usp-text {
+    display: block;
+    text-align: center;
+    padding: 0 10px 10px 20px;
+}
+
+
+/* ---------------- */
